@@ -1,0 +1,74 @@
+/*HTML Elements*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace, Arial;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/*Classes*/
+
+.top {
+    background-color: #E8F0F2;
+    padding: 1%;
+    margin: 0;
+}
+
+.middle {
+    background-color: #A2DBFA;
+    padding: 1%;
+}
+
+.bottom1 {
+    background-color: #39A2DB;
+    padding: 1%;
+}
+
+.bottom2 {
+    background-color: #053742;
+    padding: 1%;
+    margin: 0;
+}
+
+.desc {
+    font-size: 40px;
+    color: darkcyan;
+}
+
+.descParent {
+    font-size: 25px;
+}
+
+.picture {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 600px;
+}
+
+.subtitles {
+    font-size: 40px;
+    color: darkcyan;
+    position: relative;
+    margin-top: 0;
+}
+
+/*IDs*/
+
+#aboutMeDesc {
+    position: relative;
+    text-align: left;
+}
+
+#pictureOfMe {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 1250px;
+    bottom: 330px;
+    
+}
